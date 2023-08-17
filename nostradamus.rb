@@ -153,7 +153,7 @@ if batalha1 == "começar"
     puts "●❯────────｢ Escolha ｣────────❮●"
     escolha_dinheiro = gets.chomp
 
-    if escolha_dinheiro < 2
+    if escolha_dinheiro.to_i < 2
         sleep(2)
         puts "❯ Você pega o saco de dinheiro e encara o rei. "
         sleep(2)
